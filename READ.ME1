@@ -1,0 +1,125 @@
+# To-Do List Application
+
+## DecodeLabs – Python Programming Internship
+**Project 1: To-Do List**
+
+### 1. Project Description
+The To-Do List Application is a simple Python-based project developed as part of the DecodeLabs Python Programming Internship.
+
+The main purpose of this project is to create a simple task management system where users can add tasks, view their tasks, and manage their daily activities through a menu-driven program.
+
+This project uses basic Python concepts such as lists, dictionaries, functions, loops, and conditional statements.
+
+### 2. Project Objectives
+- To develop a simple task management application using Python.
+- To understand Python lists and dictionaries.
+- To learn how to create and use functions.
+- To implement loops and conditional statements.
+- To accept user input and display the results.
+
+### 3. Features
+- **Add Task:** Allows users to enter and add new tasks.
+- **View Tasks:** Displays all added tasks with their ID and task name.
+- **Task Identification:** Each task is assigned a unique ID during the current program session.
+- **Exit:** Allows users to close the application.
+- **Invalid Input Handling:** Displays an error message when an incorrect menu option is entered.
+
+### 4. Technologies Used
+- Programming Language: Python
+- Code Editor: Visual Studio Code
+- Data Structures: List and Dictionary
+- Libraries: No external libraries required.
+
+### 5. Python Concepts Used
+
+| Concept | Description |
+|---|---|
+| List | Stores multiple tasks. |
+| Dictionary | Stores task ID and task name. |
+| Functions | Performs adding and viewing operations. |
+| input() | Accepts information from the user. |
+| append() | Adds tasks to the list. |
+| while loop | Repeats the menu until exit. |
+| for loop | Displays all tasks. |
+| if-elif-else | Checks user choices. |
+| break | Stops the program. |
+
+### 6. Project Workflow
+
+1. Create an empty list to store tasks.
+2. Display the To-Do List menu.
+3. Ask the user to select an option.
+4. If the user selects Add Task, accept the task name.
+5. Store the task ID and task name in a dictionary.
+6. Add the dictionary to the task list.
+7. If the user selects View Tasks, display all available tasks.
+8. If the user selects Exit, terminate the program.
+
+### 7. Sample Output
+
+```text
+===== TO-DO LIST =====
+1. Add Task
+2. View Tasks
+3. Exit
+
+Enter your choice: 1
+Enter your task: Complete Python Assignment
+Task added successfully!
+
+===== TO-DO LIST =====
+1. Add Task
+2. View Tasks
+3. Exit
+
+Enter your choice: 2
+
+===== YOUR TO-DO TASKS =====
+ID: 1
+Task: Complete Python Assignment
+
+===== TO-DO LIST =====
+1. Add Task
+2. View Tasks
+3. Exit
+
+Enter your choice: 3
+Thank you for using To-Do List!
+```
+
+### 8. How to Run the Project
+
+1. Install Python on your computer.
+2. Open the project folder in Visual Studio Code.
+3. Create a Python file named `todo.py`.
+4. Copy the project code into the file.
+5. Save the file.
+6. Open the terminal.
+7. Execute the following command:
+
+```bash
+python todo.py
+```
+
+### 9. Limitations
+- Tasks are stored temporarily in memory.
+- Tasks are not saved permanently.
+- All tasks are cleared when the program is closed.
+- The application supports adding and viewing tasks only.
+
+### 10. Learning Outcomes
+Through this project, I learned how to:
+- Work with Python lists and dictionaries.
+- Create and call user-defined functions.
+- Use loops and conditional statements.
+- Accept and process user input.
+- Develop a menu-driven Python application.
+
+### 11. Conclusion
+The To-Do List Application helped me understand the fundamentals of Python programming through practical implementation. It improved my knowledge of data structures, functions, loops, and conditional statements.
+
+This project was completed as part of my Python Programming Internship at **DecodeLabs**.
+
+**Internship Organization:** DecodeLabs  
+**Project:** Python Project 1 – To-Do List Application  
+**Programming Language:** Python
