@@ -1,0 +1,83 @@
+# Random Password Generator
+
+## Internship
+**DecodeLabs – Python Programming Internship**
+
+## Project Description
+The Random Password Generator is a Python-based application that generates random and strong passwords. It asks the user to enter the required password length and creates a password using lowercase letters, uppercase letters, numbers, and special characters.
+
+The program checks whether the password length is at least 15 characters. If the entered length is less than 15, it displays a warning message.
+
+## Objectives
+- To generate random passwords using Python.
+- To understand Python's `random` and `string` modules.
+- To create passwords using letters, numbers, and special characters.
+- To learn loops, conditions, and string operations.
+
+## Features
+- Accepts password length from the user.
+- Checks the minimum password length of 15 characters.
+- Uses lowercase and uppercase letters.
+- Includes numbers and special characters.
+- Displays the generated password and its length.
+
+## Technologies Used
+- **Programming Language:** Python
+- **Modules:** `random`, `string`
+- **Editor:** VS Code / Jupyter Notebook
+
+## Concepts Used
+- Variables
+- User input (`input()`)
+- Conditional statements (`if-else`)
+- For loop
+- String concatenation
+- `random.choice()`
+- `string.ascii_lowercase`
+- `string.ascii_uppercase`
+- `string.digits`
+- `string.punctuation`
+
+## How It Works
+1. The program asks the user to enter the password length.
+2. It checks whether the length is at least 15.
+3. It collects lowercase letters, uppercase letters, numbers, and special characters.
+4. It combines all these characters into one string.
+5. A `for` loop selects random characters to generate the password.
+6. Finally, it displays the generated password and its length.
+
+## Sample Output
+
+```text
+Enter password length: 15
+
+===== PASSWORD GENERATOR =====
+Generated Password: A7@kP2#mL9!xQ4$b
+Password Length: 15
+Password generated successfully!
+```
+
+*Note: The generated password will be different each time.*
+
+## How to Run the Project
+1. Install Python on your computer.
+2. Open the project in VS Code or Jupyter Notebook.
+3. Save the code as `password_generator.py`.
+4. Run the program:
+
+```bash
+python password_generator.py
+```
+
+5. Enter the password length when requested.
+
+## Learning Outcomes
+- Learned how to generate random passwords using Python.
+- Understood the use of the `random` and `string` modules.
+- Practiced loops and conditional statements.
+- Improved understanding of string manipulation.
+
+## Conclusion
+This project helped me understand the basics of Python programming and how to generate random passwords using different character types. It improved my practical knowledge of Python modules, loops, conditions, and strings.
+
+**Submitted as part of the DecodeLabs Python Programming Internship.**

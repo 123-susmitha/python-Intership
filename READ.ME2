@@ -1,0 +1,132 @@
+# Expense Tracker
+
+## DecodeLabs – Python Programming Internship
+**Project 2: Expense Tracker**
+
+### 1. Project Description
+The Expense Tracker is a simple Python-based application developed as part of the DecodeLabs Python Programming Internship.
+
+The main purpose of this project is to calculate the total expenses entered by the user. The program continuously accepts expense amounts, adds them together, and displays the final total spent.
+
+This project helps beginners understand mathematical operations, loops, input handling, and the accumulator concept in Python.
+
+### 2. Project Objectives
+- To develop a simple Expense Tracker using Python.
+- To accept multiple expense amounts from the user.
+- To calculate the total amount spent.
+- To understand the accumulator concept.
+- To handle invalid user input.
+
+### 3. Features
+- **Enter Expenses:** Allows users to enter multiple expense amounts.
+- **Calculate Total:** Automatically adds each expense to the previous total.
+- **Current Total:** Displays the updated total after every valid expense.
+- **Input Validation:** Handles invalid input using `try-except`.
+- **Exit Option:** Allows users to stop entering expenses by typing `quit`.
+- **Final Summary:** Displays the total amount spent.
+
+### 4. Technologies Used
+- Programming Language: Python
+- Code Editor: Visual Studio Code
+- Concepts: Loops, mathematical operations, variables and exception handling.
+- Libraries: No external libraries required.
+
+### 5. Python Concepts Used
+
+| Concept | Description |
+|---|---|
+| Variable | Stores the total expense. |
+| Initialization | `total = 0` initializes the total. |
+| input() | Accepts expense amounts from the user. |
+| int() | Converts input into an integer. |
+| while loop | Allows continuous expense entry. |
+| Accumulator | `total = total + expense` adds expenses. |
+| if statement | Checks the quit condition. |
+| break | Stops the loop. |
+| try-except | Handles invalid numerical input. |
+| format() | Displays the final total with two decimal places. |
+
+### 6. Project Workflow
+
+1. Initialize the total expense as zero.
+2. Display the Expense Tracker.
+3. Ask the user to enter an expense amount.
+4. Check whether the user entered `quit`.
+5. Convert the entered amount into an integer.
+6. Add the new expense to the previous total.
+7. Display the updated total.
+8. Handle invalid input using exception handling.
+9. Display the final total when the user exits.
+
+### 7. Sample Output
+
+```text
+===== EXPENSE TRACKER =====
+
+Enter expense amount (or type 'quit' to stop): 100
+Expense added successfully!
+Current Total: 100
+
+===== EXPENSE TRACKER =====
+
+Enter expense amount (or type 'quit' to stop): 50
+Expense added successfully!
+Current Total: 150
+
+===== EXPENSE TRACKER =====
+
+Enter expense amount (or type 'quit' to stop): 20
+Expense added successfully!
+Current Total: 170
+
+===== EXPENSE TRACKER =====
+
+Enter expense amount (or type 'quit' to stop): abc
+Invalid Data! Please enter a number.
+
+===== EXPENSE TRACKER =====
+
+Enter expense amount (or type 'quit' to stop): quit
+
+===== EXPENSE SUMMARY =====
+Final Total Spent: $ 170.00
+Thank you for using Expense Tracker!
+```
+
+### 8. How to Run the Project
+
+1. Install Python on your computer.
+2. Open the project folder in Visual Studio Code.
+3. Create a Python file named `expense_tracker.py`.
+4. Copy the project code into the file.
+5. Save the file.
+6. Open the terminal in VS Code.
+7. Execute the following command:
+
+```bash
+python expense_tracker.py
+```
+
+### 9. Limitations
+- Expenses are stored temporarily in memory.
+- The program does not save expense records permanently.
+- Only integer expense amounts are accepted.
+- The program calculates the total but does not categorize individual expenses.
+
+### 10. Learning Outcomes
+Through this project, I learned how to:
+- Perform mathematical operations in Python.
+- Use variables and accumulators.
+- Implement continuous loops.
+- Accept and process user input.
+- Handle invalid input using `try-except`.
+- Develop a simple menu-free expense calculation program.
+
+### 11. Conclusion
+The Expense Tracker project helped me understand the fundamentals of Python data processing and mathematical calculations. It improved my knowledge of loops, accumulators, variables, and exception handling through practical implementation.
+
+This project was completed as part of my Python Programming Internship at **DecodeLabs**.
+
+**Internship Organization:** DecodeLabs  
+**Project:** Python Project 2 – Expense Tracker  
+**Programming Language:** Python
